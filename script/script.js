@@ -1,4 +1,3 @@
- <script>
 var imgJackson = document.getElementById("imagen-jackson1");
             imgJackson.onclick = function() {
                 var imgJacksonSrc = imgJackson.getAttribute("src");
@@ -34,4 +33,3 @@ var imgJackson = document.getElementById("imagen-jackson1");
                 window.requestAnimationFrame(walkTheLogojackson);
             };
             walkTheLogojackson();
-</script>
